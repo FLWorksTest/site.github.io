@@ -238,6 +238,10 @@ header {
     overflow-x: auto;
     transition: 0.5s;
 
+    .mobile-menu {
+        margin-bottom: 100px;
+    }
+
     ul {
         list-style-type: none;
         margin: 0px;
@@ -455,6 +459,9 @@ header {
             float: right;
         }
     }
+    .more-cards-link:hover {
+        text-decoration: none;
+    }
 }
 
 .we-are-section {
@@ -663,10 +670,13 @@ body .btn-secondary:focus {
     .footer-email-section {
         .email-section-body {
             text-align: left !important;
+            .subscribe {
+                margin-left: 0px;
+            }
         }
     }
 
     body.show-mobile-nav {
-        position: fixed;
+        overflow: hidden;
     }
 }
