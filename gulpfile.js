@@ -10,7 +10,7 @@ const sassOptions = {
 
 gulp.task("styles", () => {
   return gulp
-    .src("sass/main.scss")
+    .src("sass/layout.scss")
     .pipe(sourcemaps.init())
     .pipe(sass(sassOptions).on("error", sass.logError))
     .pipe(gulp.dest("./css/"))
@@ -25,7 +25,7 @@ gulp.task("styles", () => {
 });
 
 gulp.task("clean", () => {
-  return del(["css/main.css"]);
+  return del(["css/layout.css"]);
 });
 
 gulp.task("default", gulp.series(["clean", "styles"]));
