@@ -338,9 +338,14 @@
 }
 
 .card-features {
+    border-style: solid;
+    border-color: $default-border-color;
+    border-width: 1px 0px 0px 0px;
+
     .feature {
-        border: 1px solid $default-border-color;
-        border-right: none;
+        border-style: solid;
+        border-color: $default-border-color;
+        border-width: 0px 1px 1px 0px;
         padding: 10px;
         p {
             margin: 0px;
@@ -348,8 +353,8 @@
             line-height: 24px;
         }
     }
-    .feature:first-child {
-        border-left: none;
+    .feature:last-child {
+        border-width: 0px 0px 1px 0px;
     }
 }
 
@@ -472,6 +477,30 @@
     .credit-card-profile {
         .container.card-info {
             padding: 45px 30px;
+        }
+    }
+
+    .card-features {
+        .feature:nth-child(even) {
+            border-width: 0px 0px 1px 0px;
+        }
+    }
+
+    .featured-card {
+        .card-features {
+            border: none;
+
+            .feature {
+                border: none;
+                padding: 0;
+                margin-bottom: 5px;
+                text-align: left;
+
+                p {
+                    margin-top: 10px;
+                    font-weight: normal;
+                }
+            }
         }
     }
 }
