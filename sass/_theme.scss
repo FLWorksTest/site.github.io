@@ -347,11 +347,17 @@
         border-color: $default-border-color;
         border-width: 0px 1px 1px 0px;
         padding: 10px;
+
+        h5 {
+            color: $black-color;
+        }
+
         p {
             margin: 0px;
             margin-top: 15px;
             line-height: 24px;
-            font-weight: bold;
+            color: $black-color;
+            font-size: $md-font-size;
         }
     }
     .feature:last-child {
