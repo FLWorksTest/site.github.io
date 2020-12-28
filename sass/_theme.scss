@@ -351,6 +351,7 @@
             margin: 0px;
             margin-top: 15px;
             line-height: 24px;
+            font-weight: bold;
         }
     }
     .feature:last-child {
@@ -476,12 +477,12 @@
 
     .credit-card-profile {
         .container.card-info {
-            padding: 45px 30px;
+            padding: 45px 15px;
         }
     }
 
     .card-features {
-        .feature:nth-child(even) {
+        .col-6.feature:nth-child(even) {
             border-width: 0px 0px 1px 0px;
         }
     }
