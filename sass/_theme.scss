@@ -106,7 +106,7 @@
 
             p.card-title-hint {
                 font-size: $default-font-size;
-                font-weight: bold;
+                font-weight: 500;
 
                 .custom-star {
                     font-weight: bold;
@@ -212,6 +212,17 @@
         }
     }
 
+    a.question-circle {
+        color: #3f3f3f;
+        cursor: pointer;
+    }
+
+    a.question-circle:hover {
+        .fa-question-circle {
+            font-weight: 900;
+        }
+    }
+
     .card-opinion-section {
         text-align: right;
         padding-top: 10px;
@@ -264,11 +275,13 @@
             display: -webkit-box;
             display: -ms-flexbox;
             display: flex;
+            font-family: "Lato", sans-serif;
+            font-size: $lg-font-size;
         }
 
         .fa-check {
             float: left;
-            margin-right: 20px;
+            margin-right: 15px;
             margin-top: 3px;
             color: $success-color;
         }
@@ -283,11 +296,13 @@
             display: -webkit-box;
             display: -ms-flexbox;
             display: flex;
+            font-family: "Lato", sans-serif;
+            font-size: $lg-font-size;
         }
 
         .fa-times {
             float: left;
-            margin-right: 20px;
+            margin-right: 15px;
             margin-top: 3px;
             color: $danger-color;
         }
@@ -301,7 +316,7 @@
         .rate {
             border-bottom: 1px solid #eee;
             padding: 10px;
-            font-size: 12px;
+            font-size: $default-font-size;
 
             .rate-title {
                 width: 50%;
@@ -424,6 +439,7 @@
             font-size: 17px;
             line-height: 20px;
             display: flex;
+            text-align: left;
         }
 
         .fa-check {
@@ -470,8 +486,8 @@
         .recommended-card {
             .custom-card-image {
                 img {
-                    width: 90%;
-                    margin-left: 5%;
+                    width: 84%;
+                    margin-left: 8%;
                 }
             }
             .custom-card-info {
