@@ -445,8 +445,10 @@
                         star_rate
                     </span>
                     <span class="hint">iExcelente!</span>
-                    <a href="#" class="question-circle">
-                        <i class="far fa-question-circle"></i>
+                    <a href="javascript:void(0)" class="question-circle" data-toggle="tooltip" data-placement="top"
+                        title="Earn unlimited 1.5% cash back on every purchase, every day">
+                        <span>
+                            <i class="far fa-question-circle"></i></span>
                     </a>
                 </p>
             </div>
@@ -845,27 +847,30 @@
                                         Earn 5 points per $1 spent on Southwest purchases. Earn between 12/1/2020 and
                                         3/31/2021 on up to $2,000 spent per month.
                                     </p>
-                                    <a href="javascript:void(0)" class="show-more-lnk">
-                                        Show More
-                                        <i class="fa fa-angle-down"></i>
-                                    </a>
-                                    <div class="show-more-details d-none">
-                                        <p>
-                                            <i class="fa fa-check"></i>
-                                            No penalty APR. Paying late won't automatically raise your interest rate
-                                            (APR). Other account pricing and terms apply
-                                        </p>
-                                        <p>
-                                            <i class="fa fa-check"></i>
-                                            Contactless Cards - The security of a chip card, with the convenience of a
-                                            tap
-                                        </p>
-                                        <p>
-                                            <i class="fa fa-check"></i>
-                                            Access your FICO® Score for free within Online Banking or your Mobile
-                                            Banking app
-                                        </p>
-                                        <a href="javascript:void(0)" class="show-less-lnk">
+                                    <div class="show-more-details">
+                                        <a href="javascript:void(0)" class="show-more-lnk">
+                                            Show More
+                                            <i class="fa fa-angle-down"></i>
+                                        </a>
+                                        <div class="more-details d-none">
+                                            <p>
+                                                <i class="fa fa-check"></i>
+                                                No penalty APR. Paying late won't automatically raise your interest rate
+                                                (APR). Other account pricing and terms apply
+                                            </p>
+                                            <p>
+                                                <i class="fa fa-check"></i>
+                                                Contactless Cards - The security of a chip card, with the convenience of
+                                                a
+                                                tap
+                                            </p>
+                                            <p>
+                                                <i class="fa fa-check"></i>
+                                                Access your FICO® Score for free within Online Banking or your Mobile
+                                                Banking app
+                                            </p>
+                                        </div>
+                                        <a href="javascript:void(0)" class="show-less-lnk d-none">
                                             Show Less
                                             <i class="fa fa-angle-up"></i>
                                         </a>
@@ -880,10 +885,16 @@
                     <!--recommended card1-->
                     <div class="recommended-card custom-card">
                         <div class="row">
-                            <div class="col-12 col-md-4 col-lg-3 custom-card-image">
-                                <img src="./images/cardsImg/card1.jfif" alt="card1" />
+                            <div class="col-12 col-md-4 col-lg-3">
+                                <div class="custom-card-image">
+                                    <img src="./images/cardsImg/card1.jfif" alt="card1" />
+                                </div>
+                                <div class="custom-card-buttons d-none d-md-block">
+                                    <a href="#" class="btn btn-primary">Pedir ahora</a>
+                                    <a href="#" class="btn btn-outline-primary">Mas detalles </a>
+                                </div>
                             </div>
-                            <div class="col-12 col-md-8 col-lg-7 custom-card-info">
+                            <div class="col-12 col-md-8 col-lg-9 custom-card-info">
                                 <h1>American Express Gold Card</h1>
                                 <p class="card-title-hint">
                                     <span>iExcelente!</span>
@@ -904,48 +915,96 @@
                                     </span>
                                     <span>19 oponioniones</span>
                                 </p>
+
+                                <div class="custom-card-buttons d-md-none">
+                                    <a href="#" class="btn btn-primary">Pedir ahora</a>
+                                    <a href="#" class="btn btn-outline-primary">Mas detalles </a>
+                                </div>
+
                                 <div class="row no-gutters card-features">
-                                    <div class="col-4 feature">
-                                        <h5 class="lbl-bold">REWARDS RATE</h5>
-                                        <p>
+                                    <div class="col-12 col-md-4 feature">
+                                        <h6 class="lbl-bold">REWARDS RATE</h6>
+                                        <p class="d-none d-md-block">
                                             1x - 3x <br /> Points Per Dollar
                                         </p>
-                                    </div>
-                                    <div class="col-4 feature">
-                                        <h5 class="lbl-bold">WELCOME BONUS</h5>
-                                        <p>
-                                            50,000 <br /> Points
+                                        <p class="d-md-none">
+                                            1x - 3x Points Per Dollar
                                         </p>
                                     </div>
-                                    <div class="col-4 feature">
-                                        <h5 class="lbl-bold">EDITORS' BONUS ESTIMATE</h5>
+                                    <div class="col-12 col-md-4 feature">
+                                        <h6 class="lbl-bold">WELCOME BONUS</h6>
+                                        <p class="d-none d-md-block">
+                                            50,000 <br /> Points
+                                        </p>
+                                        <p class="d-md-none">
+                                            Earn 50,000 points after spending $4,000 within the first 3 months.
+                                        </p>
+                                    </div>
+                                    <div class="col-12 col-md-4 feature">
+                                        <h6 class="lbl-bold">EDITORS' BONUS ESTIMATE</h6>
                                         <p>
-                                            $855 <br />
+                                            $785 <br />
                                         </p>
                                     </div>
                                 </div>
-                                <br />
-                                <p class="card-info-body">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
-                                    labore molestias, voluptatibus perferendis rem provident, fuga
-                                    deserunt ab accusamus praesentium <br />quos dolore ratione excepturi
-                                    commodi enim non maiores magni odit consectetur voluptas velit
-                                    laboriosam!
-                                </p>
-                            </div>
-                            <div class="col-12 col-md-12 col-lg-2 custom-card-buttons">
-                                <a href="#" class="btn btn-primary">Pedir ahora</a>
-                                <a href="#" class="btn btn-outline-primary">Mas detalles </a>
+
+                                <div class="card-details">
+                                    <p>
+                                        <i class="fa fa-check"></i>
+                                        Earn up to 80,000 points. Earn 50,000 points after you spend $2,000 on purchases
+                                        in the first 3 months. Earn an additional 30,000 points after you spend $10,000
+                                        on purchases in the first 9 months.
+                                    </p>
+                                    <p>
+                                        <i class="fa fa-check"></i>
+                                        Earn 5 points per $1 spent on Southwest purchases. Earn between 12/1/2020 and
+                                        3/31/2021 on up to $2,000 spent per month.
+                                    </p>
+                                    <div class="show-more-details">
+                                        <a href="javascript:void(0)" class="show-more-lnk">
+                                            Show More
+                                            <i class="fa fa-angle-down"></i>
+                                        </a>
+                                        <div class="more-details d-none">
+                                            <p>
+                                                <i class="fa fa-check"></i>
+                                                No penalty APR. Paying late won't automatically raise your interest rate
+                                                (APR). Other account pricing and terms apply
+                                            </p>
+                                            <p>
+                                                <i class="fa fa-check"></i>
+                                                Contactless Cards - The security of a chip card, with the convenience of
+                                                a
+                                                tap
+                                            </p>
+                                            <p>
+                                                <i class="fa fa-check"></i>
+                                                Access your FICO® Score for free within Online Banking or your Mobile
+                                                Banking app
+                                            </p>
+                                        </div>
+                                        <a href="javascript:void(0)" class="show-less-lnk d-none">
+                                            Show Less
+                                            <i class="fa fa-angle-up"></i>
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <!--recommended card2-->
                     <div class="recommended-card custom-card">
                         <div class="row">
-                            <div class="col-12 col-md-4 col-lg-3 custom-card-image">
-                                <img src="./images/cardsImg/card2.jfif" alt="card1" />
+                            <div class="col-12 col-md-4 col-lg-3">
+                                <div class="custom-card-image">
+                                    <img src="./images/cardsImg/card2.jfif" alt="card2" />
+                                </div>
+                                <div class="custom-card-buttons d-none d-md-block">
+                                    <a href="#" class="btn btn-primary">Pedir ahora</a>
+                                    <a href="#" class="btn btn-outline-primary">Mas detalles </a>
+                                </div>
                             </div>
-                            <div class="col-12 col-md-8 col-lg-7 custom-card-info">
+                            <div class="col-12 col-md-8 col-lg-9 custom-card-info">
                                 <h1>American Express Gold Card</h1>
                                 <p class="card-title-hint">
                                     <span>iExcelente!</span>
@@ -966,42 +1025,90 @@
                                     </span>
                                     <span>19 oponioniones</span>
                                 </p>
+
+                                <div class="custom-card-buttons d-md-none">
+                                    <a href="#" class="btn btn-primary">Pedir ahora</a>
+                                    <a href="#" class="btn btn-outline-primary">Mas detalles </a>
+                                </div>
+
                                 <div class="row no-gutters card-features">
-                                    <div class="col-6 feature">
-                                        <h5 class="lbl-bold">REWARDS RATE</h5>
-                                        <p>
+                                    <div class="col-12 col-md-6 feature">
+                                        <h6 class="lbl-bold">REWARDS RATE</h6>
+                                        <p class="d-none d-md-block">
                                             1x - 3x <br /> Points Per Dollar
                                         </p>
+                                        <p class="d-md-none">
+                                            1x - 3x Points Per Dollar
+                                        </p>
                                     </div>
-                                    <div class="col-6 feature">
-                                        <h5 class="lbl-bold">WELCOME BONUS</h5>
-                                        <p>
+                                    <div class="col-12 col-md-6 feature">
+                                        <h6 class="lbl-bold">WELCOME BONUS</h6>
+                                        <p class="d-none d-md-block">
                                             50,000 <br /> Points
+                                        </p>
+                                        <p class="d-md-none">
+                                            Earn 50,000 points after spending $4,000 within the first 3 months.
                                         </p>
                                     </div>
                                 </div>
-                                <br />
-                                <p class="card-info-body">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
-                                    labore molestias, voluptatibus perferendis rem provident, fuga
-                                    deserunt ab accusamus praesentium quos dolore ratione excepturi
-                                    commodi enim non maiores magni odit consectetur voluptas velit
-                                    laboriosam!
-                                </p>
-                            </div>
-                            <div class="col-12 col-md-12 col-lg-2 custom-card-buttons">
-                                <a href="#" class="btn btn-primary">Pedir ahora</a>
-                                <a href="#" class="btn btn-outline-primary">Mas detalles </a>
+
+                                <div class="card-details">
+                                    <p>
+                                        <i class="fa fa-check"></i>
+                                        Earn up to 80,000 points. Earn 50,000 points after you spend $2,000 on purchases
+                                        in the first 3 months. Earn an additional 30,000 points after you spend $10,000
+                                        on purchases in the first 9 months.
+                                    </p>
+                                    <p>
+                                        <i class="fa fa-check"></i>
+                                        Earn 5 points per $1 spent on Southwest purchases. Earn between 12/1/2020 and
+                                        3/31/2021 on up to $2,000 spent per month.
+                                    </p>
+                                    <div class="show-more-details">
+                                        <a href="javascript:void(0)" class="show-more-lnk">
+                                            Show More
+                                            <i class="fa fa-angle-down"></i>
+                                        </a>
+                                        <div class="more-details d-none">
+                                            <p>
+                                                <i class="fa fa-check"></i>
+                                                No penalty APR. Paying late won't automatically raise your interest rate
+                                                (APR). Other account pricing and terms apply
+                                            </p>
+                                            <p>
+                                                <i class="fa fa-check"></i>
+                                                Contactless Cards - The security of a chip card, with the convenience of
+                                                a
+                                                tap
+                                            </p>
+                                            <p>
+                                                <i class="fa fa-check"></i>
+                                                Access your FICO® Score for free within Online Banking or your Mobile
+                                                Banking app
+                                            </p>
+                                        </div>
+                                        <a href="javascript:void(0)" class="show-less-lnk d-none">
+                                            Show Less
+                                            <i class="fa fa-angle-up"></i>
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <!--recommended card3-->
                     <div class="recommended-card custom-card">
                         <div class="row">
-                            <div class="col-12 col-md-4 col-lg-3 custom-card-image">
-                                <img src="./images/cardsImg/card3.jfif" alt="card1" />
+                            <div class="col-12 col-md-4 col-lg-3">
+                                <div class="custom-card-image">
+                                    <img src="./images/cardsImg/card3.jfif" alt="card3" />
+                                </div>
+                                <div class="custom-card-buttons d-none d-md-block">
+                                    <a href="#" class="btn btn-primary">Pedir ahora</a>
+                                    <a href="#" class="btn btn-outline-primary">Mas detalles </a>
+                                </div>
                             </div>
-                            <div class="col-12 col-md-8 col-lg-7 custom-card-info">
+                            <div class="col-12 col-md-8 col-lg-9 custom-card-info">
                                 <h1>American Express Gold Card</h1>
                                 <p class="card-title-hint">
                                     <span>iExcelente!</span>
@@ -1022,26 +1129,65 @@
                                     </span>
                                     <span>19 oponioniones</span>
                                 </p>
+
+                                <div class="custom-card-buttons d-md-none">
+                                    <a href="#" class="btn btn-primary">Pedir ahora</a>
+                                    <a href="#" class="btn btn-outline-primary">Mas detalles </a>
+                                </div>
+
                                 <div class="row no-gutters card-features">
                                     <div class="col-12 feature">
-                                        <h5 class="lbl-bold">REWARDS RATE</h5>
-                                        <p>
+                                        <h6 class="lbl-bold">REWARDS RATE</h6>
+                                        <p class="d-none d-md-block">
                                             1x - 3x <br /> Points Per Dollar
+                                        </p>
+                                        <p class="d-md-none">
+                                            1x - 3x Points Per Dollar
                                         </p>
                                     </div>
                                 </div>
-                                <br />
-                                <p class="card-info-body">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
-                                    labore molestias, voluptatibus perferendis rem provident, fuga
-                                    deserunt ab accusamus praesentium quos dolore ratione excepturi
-                                    commodi enim non maiores magni odit consectetur voluptas velit
-                                    laboriosam!
-                                </p>
-                            </div>
-                            <div class="col-12 col-md-12 col-lg-2 custom-card-buttons">
-                                <a href="#" class="btn btn-primary">Pedir ahora</a>
-                                <a href="#" class="btn btn-outline-primary">Mas detalles </a>
+
+                                <div class="card-details">
+                                    <p>
+                                        <i class="fa fa-check"></i>
+                                        Earn up to 80,000 points. Earn 50,000 points after you spend $2,000 on purchases
+                                        in the first 3 months. Earn an additional 30,000 points after you spend $10,000
+                                        on purchases in the first 9 months.
+                                    </p>
+                                    <p>
+                                        <i class="fa fa-check"></i>
+                                        Earn 5 points per $1 spent on Southwest purchases. Earn between 12/1/2020 and
+                                        3/31/2021 on up to $2,000 spent per month.
+                                    </p>
+                                    <div class="show-more-details">
+                                        <a href="javascript:void(0)" class="show-more-lnk">
+                                            Show More
+                                            <i class="fa fa-angle-down"></i>
+                                        </a>
+                                        <div class="more-details d-none">
+                                            <p>
+                                                <i class="fa fa-check"></i>
+                                                No penalty APR. Paying late won't automatically raise your interest rate
+                                                (APR). Other account pricing and terms apply
+                                            </p>
+                                            <p>
+                                                <i class="fa fa-check"></i>
+                                                Contactless Cards - The security of a chip card, with the convenience of
+                                                a
+                                                tap
+                                            </p>
+                                            <p>
+                                                <i class="fa fa-check"></i>
+                                                Access your FICO® Score for free within Online Banking or your Mobile
+                                                Banking app
+                                            </p>
+                                        </div>
+                                        <a href="javascript:void(0)" class="show-less-lnk d-none">
+                                            Show Less
+                                            <i class="fa fa-angle-up"></i>
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
