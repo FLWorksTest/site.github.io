@@ -215,178 +215,177 @@
 }
 
 /* credit-cards.html */
+.card-cover-img {
+    background-image: url("../images/oca/oca-bg-img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 280px;
+    margin-top: -80px;
+    padding-top: 50px;
+    text-align: center;
+
+    .card-brand {
+        display: inline-block;
+        padding: 10px;
+        background-color: $white-color;
+        border-bottom-left-radius: 7px;
+        border-bottom-right-radius: 7px;
+        margin-bottom: 30px;
+    }
+
+    h1 {
+        font-size: 28px;
+        font-weight: bold;
+        color: $white-color;
+        margin-bottom: 10px;
+        text-shadow: 2px 2px 4px #000000;
+    }
+
+    p.card-rating {
+        margin-top: 5px;
+        .hint {
+            font-size: 12px;
+            font-weight: bold;
+            margin-left: 10px;
+            margin-right: 5px;
+        }
+    }
+}
+
+a.question-circle {
+    color: #3f3f3f;
+    cursor: pointer;
+}
+
+a.question-circle:hover {
+    .fa-question-circle {
+        font-weight: 900;
+    }
+}
+
+.card-opinion-section {
+    text-align: right;
+    padding-top: 10px;
+    min-height: 70px;
+    z-index: -1;
+
+    .btn-outline-primary {
+        font-size: 12px;
+    }
+    .btn-outline-primary:hover {
+        background: $white-color;
+        background-color: $white-color;
+        color: $primary-color;
+    }
+
+    .hint {
+        display: inline-block;
+        margin-top: 7px;
+        margin-right: 17px;
+        font-size: 12px;
+    }
+}
+
+.card-apply-section {
+    text-align: center;
+    margin-top: 30px;
+
+    .btn-primary {
+        width: 300px;
+        max-width: 100%;
+    }
+
+    .hint {
+        font-size: 12px;
+        font-weight: bold;
+        color: $primary-color;
+        margin-top: 10px;
+    }
+}
+
+.advantages-section {
+    h3 {
+        margin-bottom: 20px;
+    }
+
+    p {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        font-family: "Lato", sans-serif;
+        font-size: $lg-font-size;
+    }
+
+    .fa-check {
+        float: left;
+        margin-right: 15px;
+        margin-top: 3px;
+        color: $success-color;
+    }
+}
+
+.disadvantages-section {
+    h3 {
+        margin-bottom: 20px;
+    }
+
+    p {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        font-family: "Lato", sans-serif;
+        font-size: $lg-font-size;
+    }
+
+    .fa-times {
+        float: left;
+        margin-right: 15px;
+        margin-top: 3px;
+        color: $danger-color;
+    }
+}
+
+.rates {
+    h3 {
+        margin-bottom: 20px;
+    }
+
+    .rate {
+        border-bottom: 1px solid #eee;
+        padding: 10px;
+        font-size: $default-font-size;
+
+        .rate-title {
+            width: 50%;
+            text-align: left;
+        }
+
+        .rate-value {
+            width: 50%;
+            text-align: right;
+        }
+    }
+}
+
+.general-info {
+    h3,
+    h4 {
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    ul {
+        font-size: 12px;
+        margin-left: 0px;
+        padding-left: 15px;
+    }
+}
 .credit-card-profile {
-    .card-cover-img {
-        background-image: url("../images/oca/oca-bg-img.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 280px;
-        margin-top: -80px;
-        padding-top: 50px;
-        text-align: center;
-
-        .card-brand {
-            display: inline-block;
-            padding: 10px;
-            background-color: $white-color;
-            border-bottom-left-radius: 7px;
-            border-bottom-right-radius: 7px;
-            margin-bottom: 30px;
-        }
-
-        h1 {
-            font-size: 28px;
-            font-weight: bold;
-            color: $white-color;
-            margin-bottom: 10px;
-            text-shadow: 2px 2px 4px #000000;
-        }
-
-        p.card-rating {
-            margin-top: 5px;
-            .hint {
-                font-size: 12px;
-                font-weight: bold;
-                margin-left: 10px;
-                margin-right: 5px;
-            }
-        }
-    }
-
-    a.question-circle {
-        color: #3f3f3f;
-        cursor: pointer;
-    }
-
-    a.question-circle:hover {
-        .fa-question-circle {
-            font-weight: 900;
-        }
-    }
-
-    .card-opinion-section {
-        text-align: right;
-        padding-top: 10px;
-        min-height: 70px;
-        z-index: -1;
-
-        .btn-outline-primary {
-            font-size: 12px;
-        }
-        .btn-outline-primary:hover {
-            background: $white-color;
-            background-color: $white-color;
-            color: $primary-color;
-        }
-
-        .hint {
-            display: inline-block;
-            margin-top: 7px;
-            margin-right: 17px;
-            font-size: 12px;
-        }
-    }
-
-    .card-apply-section {
-        text-align: center;
-        margin-top: 30px;
-
-        .btn-primary {
-            width: 300px;
-            max-width: 100%;
-        }
-
-        .hint {
-            font-size: 12px;
-            font-weight: bold;
-            color: $primary-color;
-            margin-top: 10px;
-        }
-    }
-
     .container.card-info {
         padding: 45px 70px;
-    }
-
-    .advantages-section {
-        h3 {
-            margin-bottom: 20px;
-        }
-
-        p {
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-            font-family: "Lato", sans-serif;
-            font-size: $lg-font-size;
-        }
-
-        .fa-check {
-            float: left;
-            margin-right: 15px;
-            margin-top: 3px;
-            color: $success-color;
-        }
-    }
-
-    .disadvantages-section {
-        h3 {
-            margin-bottom: 20px;
-        }
-
-        p {
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-            font-family: "Lato", sans-serif;
-            font-size: $lg-font-size;
-        }
-
-        .fa-times {
-            float: left;
-            margin-right: 15px;
-            margin-top: 3px;
-            color: $danger-color;
-        }
-    }
-
-    .rates {
-        h3 {
-            margin-bottom: 20px;
-        }
-
-        .rate {
-            border-bottom: 1px solid #eee;
-            padding: 10px;
-            font-size: $default-font-size;
-
-            .rate-title {
-                width: 50%;
-                text-align: left;
-            }
-
-            .rate-value {
-                width: 50%;
-                text-align: right;
-            }
-        }
-    }
-
-    .general-info {
-        h3,
-        h4 {
-            margin-bottom: 20px;
-        }
-
-        p {
-            font-size: 12px;
-        }
-
-        ul {
-            font-size: 12px;
-            margin-left: 0px;
-            padding-left: 15px;
-        }
     }
 
     .recommended-cards-group {
