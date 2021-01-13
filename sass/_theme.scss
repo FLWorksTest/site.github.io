@@ -481,6 +481,36 @@ a.question-circle:hover {
     }
 }
 
+/* contact info */
+.contact-info {
+    .main-title {
+        margin: 25px 0px 15px 0px;
+        letter-spacing: 0.5px;
+    }
+
+    .title-hint {
+        font-size: 15px;
+        color: #989898;
+    }
+
+    ul.contact-info-list {
+        margin: 20px 0px;
+        padding: 0;
+        list-style: none;
+
+        li {
+            .card-name {
+                font-size: 18px;
+                font-weight: bold;
+            }
+
+            p {
+                font-size: 15px;
+            }
+        }
+    }
+}
+
 /* Responsive */
 
 @media only screen and (max-width: 768px) {
