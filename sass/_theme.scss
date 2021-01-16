@@ -511,6 +511,23 @@ a.question-circle:hover {
     }
 }
 
+/* About us Page */
+.about-us {
+    h1 {
+        margin-bottom: 30px;
+    }
+    h3 {
+        margin-bottom: 20px;
+        text-decoration: underline;
+    }
+    .fb-page {
+        margin: 25px 0px 40px 0px;
+        overflow: auto;
+        max-width: 100%;
+        display: block;
+    }
+}
+
 /* Responsive */
 
 @media only screen and (max-width: 768px) {
@@ -577,6 +594,16 @@ a.question-circle:hover {
     .card-features {
         .col-6.feature:nth-child(even) {
             border-width: 0px 0px 1px 0px;
+        }
+    }
+}
+@media only screen and (min-width: 992px) {
+    /* About us Page */
+    .about-us {
+        p {
+            max-width: 60%;
+            font-size: 16px;
+            font-weight: 300;
         }
     }
 }
