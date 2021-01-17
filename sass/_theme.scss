@@ -528,6 +528,68 @@ a.question-circle:hover {
     }
 }
 
+/* faq Page */
+.faq {
+    h1 {
+        margin-bottom: 30px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+.custom-accordion {
+    .card {
+        border: none;
+        border-bottom: 2px solid #ccc;
+
+        .card-header {
+            padding: 0px;
+            border-bottom: none;
+            background: $white-color;
+            .btn-link {
+                color: #09243f;
+                font-size: 18px;
+                font-weight: 300;
+                line-height: 30px;
+                text-align: left;
+                display: block;
+                width: 100%;
+                position: relative;
+                padding-left: 0px;
+
+                .toggle-icon {
+                    position: absolute;
+                    top: 0px;
+                    right: 0px;
+                    display: inline-block;
+                    line-height: 44px;
+                    width: 44px;
+                    height: 44px;
+                    font-size: 17px;
+                    text-align: center;
+                    transition: 0.3s;
+                }
+
+                .toggle-icon.fa::before {
+                    content: "\f078";
+                }
+            }
+
+            .btn-link[aria-expanded="true"] {
+                .toggle-icon.fa::before {
+                    content: "\f077";
+                }
+            }
+
+            .btn-link:hover {
+                color: $primary-color;
+            }
+        }
+    }
+}
+
 /* Responsive */
 
 @media only screen and (max-width: 768px) {
@@ -605,5 +667,10 @@ a.question-circle:hover {
             font-size: 16px;
             font-weight: 300;
         }
+    }
+
+    /* faq Page */
+    .custom-accordion {
+        max-width: 70%;
     }
 }
