@@ -539,6 +539,28 @@ a.question-circle:hover {
     }
 }
 
+/* Contact Page */
+.contact {
+    h1 {
+        margin-bottom: 30px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .contact-top-note {
+        background: #f0f1f5;
+        padding: 10px 20px;
+        margin-bottom: 30px;
+    }
+
+    .btn[type="submit"] {
+        min-width: 150px;
+        margin-top: 15px;
+    }
+}
+
 .custom-accordion {
     .card {
         border: none;
