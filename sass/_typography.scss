@@ -28,6 +28,22 @@ h6 {
     line-height: 16px;
 }
 
+.xs-font-size {
+    font-size: $xs-font-size !important;
+}
+
+.sm-font-size {
+    font-size: $default-font-size !important;
+}
+
+.md-font-size {
+    font-size: $md-font-size !important;
+}
+
+.lg-font-size {
+    font-size: $lg-font-size !important;
+}
+
 .text-align-center {
     text-align: center;
 }
